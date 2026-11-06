@@ -1,0 +1,15 @@
+# Third-party propeller data, fetched separately (see data/README.md)
+data/UIUC-propDB/
+data/*.zip
+
+# Measured runs are written here by the thrust stand logger
+thruststand/runs/*.csv
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+.ipynb_checkpoints/
+.DS_Store
